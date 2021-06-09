@@ -1,0 +1,89 @@
+body {
+  background-color: cyan;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  padding: 3px;
+  margin: 3px;
+  font-size:25px;
+  font-family:monospace;
+  text-align: center;
+}
+
+#uno{
+  background-color: green;
+  border: dashed black 10px;
+
+}
+
+#dos{
+  background-color: blue;
+  margin-left:50px;
+  margin-top:30px;
+  border-radius:5px;
+  border: solid black 10px;
+}
+#tres{
+  background-color:red;
+  margin-left:70px;
+  margin-top:30px;
+  border-radius:10px;
+  border: dotted black 10px;
+}
+#cuatro{
+  background-color: yellow;
+  margin-left:90px;
+  margin-top:30px;
+  border-radius:15px;
+}
+
+#cinco{
+  background-color:orange;
+  margin-left:110px;
+  margin-top:30px;
+  border-radius:20px;
+}
+
+#seis{
+  background-color:pink;
+  margin-left:130px;
+  margin-top:30px;
+  border-radius:25px;
+}
+
+#siete{
+  background-color:brown;
+  margin-left:150px;
+  margin-top:30px;
+  border-radius:30px;
+}
+
+#ocho{
+  background-color:grey;
+  margin-left:170px;
+  margin-top:30px;
+  border-radius:35px;
+
+}
+
+#nueve{
+  background-color:purple;
+  margin-left:210px;
+  margin-top:30px;
+  border-radius:40px;
+}
+
+.class 1
+.class 2
+.class 3
+.class 4
+
+h1{
+  font-family: cursive;
+  }
+
+  p{
+    font-size:25px;
+  }

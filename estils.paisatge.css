@@ -1,0 +1,223 @@
+body{
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: cyan;
+}
+
+.suelo{
+  height: 300px;
+  width: 100%;
+  background-color: #9ACD32;
+  position: absolute;
+  bottom: 0px;
+}
+.fachada{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background-color:#DCDCDC;
+  position: absolute;
+  margin-left: 300px;
+  bottom: 300px;
+
+
+}
+
+.ventana1{
+  width:50px;
+  height:50px;
+  background:white;
+  position:absolute;
+  left:40px;
+  top:40px;
+  border:solid 4px black;
+
+}
+
+.ventana2{
+  width:50px;
+  height:50px;
+  background:white;
+  position:absolute;
+  right:40px;
+  top:40px;
+  border:solid 4px black;
+
+}
+
+.puerta{
+  width: 80px;
+  height: 100px;
+  background-color: #8B4513;
+  position: absolute;
+  right: 85px;
+  left: 85px;
+  top:145px;
+
+}
+
+.tejado{
+  width: 350px;
+  height: 350px;
+clip-path: polygon(52% 70%, 0% 100%, 100% 100%);
+background-color:#B22222;
+margin-left: 250px;
+position: absolute;
+bottom: 550px;
+
+}
+
+.montaña1{
+  width: 600px;
+  height: 600px;
+  background-color: #53C876;
+  position: absolute;
+  bottom: 300px;
+  left: 10px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.montaña2{
+  width: 500px;
+  height: 500px;
+  background-color: #003300;
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.montaña3{
+  width: 580px;
+  height: 580px;
+  background-color: #53C876;
+  position: absolute;
+  bottom: 300px;
+  left: 600px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+
+.nube{
+  width:170px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 690px;
+  left: 700px;
+  border-radius: 30%;
+  animation: slide2 20.5s ease-in-out alternate infinite;
+}
+
+@keyframes slide2{
+            from {margin-left: 10px;}
+            to {margin-left: 1040px;}
+}
+
+.nubecirculo1{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  right: 100px;
+  top: -10px;
+}
+
+.nubecirculo2{
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  right: 20px;
+  top: -30px;
+}
+
+.nubecirculo3{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  right: -40px;
+  top: -10px;
+}
+
+.cielo{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    bottom: 300px;
+    background-color: lightskyblue;
+    z-index: -25;
+    animation-name: fondo;
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+@keyframes fondo {
+            0% {
+                background: lightyellow;
+            }
+            15% {
+                background: lightskyblue;
+            }
+            45% {
+                background: lightskyblue;
+            }
+            50% {
+                background: lightyellow;
+            }
+            65% {
+                background: #251248;
+            }
+            95% {
+                background: #251248;
+            }
+            100% {
+                background: lightyellow;
+            }
+
+        }
+
+.sol{
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-left: 400px;
+bottom: 900px;
+ position: absolute;
+  z-index: -25;
+  animation-name: sol;
+  animation-duration: 35s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+}
+
+@keyframes sol {
+            0% {
+                background: yellow;
+            }
+            15% {
+                background: #FFAD31;
+            }
+            45% {
+                background: orange;
+            }
+            50% {
+                background: #FF8C00;
+            }
+            65% {
+                background: #251248;
+            }
+            95% {
+                background: ##E6E6FA	;
+            }
+            100% {
+                background: #FFFFE0	;
+            }

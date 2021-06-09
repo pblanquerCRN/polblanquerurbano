@@ -1,0 +1,104 @@
+body{
+  background-color: red;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.cuadros{
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  transition: 1s;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
+#contenedor{
+  float: left;
+}
+#uno{
+  background-color: lightblue;
+
+}
+
+#dos{
+  background-color: lightgreen;
+}
+#tres{
+  background-color: lightsalmon;
+}
+#cuatro{
+  background-color: lightcoral;
+}
+
+
+@media only screen and (min-width: 1400px){
+  body{
+    background-color: purple;
+  }
+
+.cuadros{
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  transition: 1s;
+}
+
+}
+
+@media only screen and (max-width: 525px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+
+
+@media only screen and (max-width: 725px){
+  body{
+    background-color: green;
+  }
+}
+
+
+#cuadroderecho{
+  width: 660px;
+  height: 480px;
+  background-color: white;
+  float: left;
+  margin: 20px;
+
+}
+
+
+#titulo{
+  font-family: serif;
+  font-weight: bold;
+  font-size: 100px;
+  color: lightcoral;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+
+}
+
+
+#contenido{
+text-align: center;
+font-size: 30px;
+width: 900px;
+height: 1000px;
+background-color: lightgreen;
+position: relative;
+margin-left: 20px;
+
+}
+
+.cuadros:hover{
+  opacity: 50%;
+  transform: rotate(360deg);
+}

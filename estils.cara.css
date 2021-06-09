@@ -1,0 +1,114 @@
+body{
+  background-color: cyan;
+}
+
+.cara{
+  width: 500px;
+  height: 700px;
+  background: #e9967a;
+  position: absolute;
+  border-radius:49% 51% 48% 52% / 38% 37% 63% 62%;
+left: 500px;
+top: 100px;
+}
+
+.ojo1{
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 80%;
+  position:absolute;
+  left: 80px;
+  top: 200px;
+}
+
+.ojo2{
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 80%;
+  position:absolute;
+  right: 80px;
+  top: 200px;
+}
+
+.pupila1{
+  background-color: brown;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+}
+
+
+.pupila2{
+  background-color: brown;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right:30px;
+}
+
+.pelo{
+  background:#4d1a00;
+
+  width: 800px;
+  height: 800px;
+  position:absolute;
+  margin-top:-200px;
+  margin-left:-150px;
+  clip-path: polygon(10% 33%, 26% 32%, 21% 19%, 32% 16%, 43% 15%, 58% 18%, 67% 19%, 72% 23%, 82% 21%, 84% 25%, 87% 34%, 86% 40%, 76% 44%, 66% 40%, 60% 40%, 52% 42%, 42% 41%, 33% 39%, 25% 43%, 21% 44%, 13% 39%, 10% 33%, 17% 27%, 26% 31%, 17% 28%);
+
+}
+
+.boca1{
+  background-color:   #ff6699;
+  width: 150px;
+  height: 150px;
+  clip-path: polygon(0 51%, 38% 29%, 49% 36%, 60% 30%, 100% 51%);
+margin-left:170px;
+margin-top:400px;
+}
+
+.boca2{
+  background-color:  #ff6699;
+  width: 150px;
+  height: 150px;
+  clip-path: polygon(0 51%, 38% 78%, 51% 76%, 63% 79%, 100% 51%);
+  margin-left:170px;
+  margin-top: -145px;
+}
+
+.ceja1{
+  background-color: #4d1a00;
+;
+  position: absolute;
+  clip-path: polygon(0% 43%, 46% 30%, 99% 47%, 47% 39%, 1% 53%);
+width: 160px;
+height:160px;
+bottom: 420px;
+left: 300px;
+}
+
+.ceja2{
+  background-color: #4d1a00;
+
+  position: absolute;
+  clip-path: polygon(3% 59%, 50% 38%, 100% 67%, 100% 49%, 50% 24%);
+width: 160px;
+height:160px;
+bottom: 440px;
+left: 20px;
+}
+
+.nariz{
+  width: 100px;
+  height: 170px;
+  background-color:  #e38b68;
+  clip-path: polygon(38% 0, 68% 0, 89% 100%, 10% 100%);
+margin-top: -300px;
+margin-left: 200px;
+
+}

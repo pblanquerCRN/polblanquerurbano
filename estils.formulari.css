@@ -1,0 +1,28 @@
+body{
+  background-color: lightcyan;
+  font-family: 'Bangers', cursive;
+}
+
+#formulario{
+  background-color: lightcyan;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cajitas{
+  background-color: lightblue;
+  width: 250px;
+  margin: 20px;
+}
+
+.cajitas,placeholder{
+font-family: 'Bangers';
+color: black;
+}
+
+::-webkit-input-placeholder{
+  color:white;
+}

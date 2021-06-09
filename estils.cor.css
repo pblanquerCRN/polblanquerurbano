@@ -1,0 +1,34 @@
+body{
+  margin: 0 auto;
+  background-color: pink;
+}
+
+.corazon{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin:0 auto;
+  position: relative;
+  top: 250px;
+  transform: rotate(-45deg);
+}
+
+.corazon:before{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  content: '';
+  transform: translateY(-150px);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.corazon:after{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  content: '';
+  transform: translatex(150px);
+  position: absolute;
+  border-radius: 50%;
+}

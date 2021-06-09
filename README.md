@@ -10,7 +10,7 @@
   <div id="header">MIS ACTIVIDADES</div>
 
   <div id="contenedor">
-<div class="caixes" id="uno"><a href="file:///C:/Users/Pol%20Blanquer/Desktop/ACTIVITATS%20DEF/Mos1/index.html"</a>
+<div class="caixes" id="uno"><a href="estils.mos1.css"</a>
 <div class="numero"> 1</div>
   <div class="caixestext">
   <h2>MOSTRA 1</h2>

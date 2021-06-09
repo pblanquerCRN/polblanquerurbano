@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title>MIS ACTIVIDADES 2</title>
-    <link rel="stylesheet" href="estils.act.css">
+    <link rel="stylesheet" href="estilsact.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
   </head>
